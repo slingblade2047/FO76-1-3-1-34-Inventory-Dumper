@@ -25,11 +25,12 @@ DWORD64 sAddress = NULL;
 char sWindow[] = "Fallout76";
 char sModule[] = "Fallout76.exe";
 
-// for Fallout 76 Update 1.3.1.26. (19-mag-2020)
+// for Fallout 76 Update 1.3.3.24. (Aug-6-2020)
 // Just change the local player offset to 0x05B49F78
 // DWORD LocalPlayerOffset = 0x059AC798;//1.3.0.23
 // DWORD LocalPlayerOffset = 0x05B49F78;//1.3.0.26
-   DWORD LocalPlayerOffset = 0x05B0A458;//1.3.1.34
+// DWORD LocalPlayerOffset = 0x05B0A458;//1.3.1.34
+   DWORD LocalPlayerOffset = 0x05B45BB0;//1.3.3.24
 
 DWORD CharacterNameOffset = 0x59A3188;//1.3.0.23
 // LocalSTASHOffset in the linked source is incorrect, 0xC28 is the correct offset.
